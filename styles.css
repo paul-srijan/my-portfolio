@@ -1,0 +1,404 @@
+
+
+
+  /* front */
+  #front{
+    /* background-color: silver; */
+    background-color: #EFF2F3;
+    /* background-color: shin; */
+  }
+  #front h1{
+    font-size: 200px;
+    /* animation: name 6s linear forwards infinite; */
+}
+
+#front h2{
+    font-size: 50px;
+    /* position: absolute; */   
+   
+}
+
+#front img{
+   border: 2px solid black;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 900px; */
+    /* width: 100%; */
+    height: 800px;
+    width: 750px;
+    /* border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%; */
+    border-radius: 50%;
+    margin-left: 450px;
+
+}
+
+#frontText{
+    display: flex;
+    position: absolute;
+    margin-top: -660px;
+    margin-left: 250px;
+}
+
+#text{
+    /* position: absolute; */
+    /* margin-top: -600px;
+    */
+    /* z-index: 100; */
+    margin-right: 200px;
+    margin-left: -150px;
+    /* color: white; */
+    color: #010101;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: monospace; */
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+#from{
+    margin-left: 550px;
+    padding-left: 100px;
+    /* color: white; */
+
+    /* margin-left: 100px; */
+}
+#bharat{
+    background-image: url(
+    "https://media.istockphoto.com/id/1409466493/vector/india-flag-design-waving-indian-flag-made-of-satin-or-silk-fabric-vector-illustration.jpg?s=2048x2048&w=is&k=20&c=ooW_-pJLJuW4au6jolbZLqpJN_Mw6zNVQp8QJOUGcBs=");
+    background-repeat: repeat;
+
+    background-size:contain;
+
+    background-position:6000px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+
+    /* margin-left: 100px; */
+}
+    
+marquee{
+    font-size: 120px;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: -250px;
+    font-weight: 600;
+    pad
+   
+}
+/* about section */
+
+#about{
+    margin-bottom: 150px;
+    padding-bottom: 24px;
+}
+
+#about h1{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 44px;
+ font-weight: 400;
+
+}
+
+
+/* --------------- */
+/* card */
+
+#card1 , #card2 , #card3 , #card4 {
+    height: 500px;
+    width: 300px;
+    color: black;
+    background-color: silver;
+    /* display: flex; */
+    margin-left: 60px;
+    border-radius: 24px;
+}
+
+#card{
+    display: flex;
+    margin-left: 25px;
+    margin-top: 100px;
+    
+
+}
+
+#card h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #fafafa;
+  margin-left: 24px;
+    /* color: black; */
+    color:white;
+
+}
+
+.card-img img{
+    height: 250px;
+    width: 250px;
+    margin-left: 24px;
+    border-radius: 24px;
+}
+#eng-details{
+    margin-left: 24px;
+    font-size: 24px;
+}
+
+#jdsc{
+    background-color: white;
+}
+#design-details{
+    margin-left: 24px;
+    font-size: 24px;
+}
+
+  
+
+
+
+/* hover */
+
+/* ---------------------- */
+/* my works */
+
+
+#works{
+    padding-left: 24px;
+    margin-left: 24px;
+
+}
+
+#work-head{
+    /* display: flex; */
+    margin-left: 24px;
+    padding-left: 24px;
+}
+
+#works h1{
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
+   
+   }
+#work-eg{
+    display: flex;
+}
+#worklist li{
+    padding: 15px 24px;
+    border: 2px solid black ;
+    border-radius: 30px;
+    margin-bottom: 24px;
+}
+#worklist li:hover{
+    box-shadow: -10px 10px black;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#wordDetails{
+    height: 600px;
+    width: 1000px;
+    background-color: orange;
+    margin-left: 25px;
+   
+}
+
+#workimg {
+    margin: 4px, 4px;
+    padding: 4px;
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: justify;
+}
+
+#workimg img{
+    width: 100%;
+   
+}
+
+.worktype{
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.worktype h2{
+    width: 50%;
+    /* float: right; */
+    text-align: end;
+    margin-left: 80px;
+    /* margin-right: 80px; */
+}
+.worktype a{
+    /* background-color: ; */
+    text-align: end;
+    margin-right: 60px;
+    width: 50%;
+    padding-top: 17px;
+
+}
+.worktype i{
+    background-color: #fafafa;
+    border-radius: 50%;
+    padding: 8px;
+}
+.worktype i:hover{
+    background-color: rgb(141, 141, 255);
+}
+
+/*  */
+/* COPIED FROM VERTICAL */
+/*  */
+
+
+#workimg-main{
+    margin: 4px, 4px;
+    padding: 4px;
+    /* background-color: gray; */
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: justify;
+    /* display: none;    */
+}
+/* #work-img-main{
+    display: none;
+   
+} */
+
+.workimg {
+    margin: 4px, 4px;
+    padding: 4px;
+    /* background-color: gray; */
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: justify;
+    /* display: none; */
+    /* display:grid; */
+}
+
+.work-img{
+    width: 100%;
+    z-index: 10;
+  /* */
+}
+
+
+
+
+
+
+
+
+/* -------------------------- */
+/* footer */
+footer{
+    background-color: #010101;
+    color: white;
+    margin-top: 100px;
+    /* height:500px; */
+    height: auto;
+}
+
+footer hr{
+    width: 1050px;
+}
+
+footer h1{
+    font-size: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 250;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+#touch ,#email ,#phno {
+padding: 15px 24px ;
+border-radius: 30px;
+margin-bottom: 24px;
+border: 2px solid white;
+background-color: black;
+z-index: 10;
+color: white;
+
+}
+
+#email ,#phno {
+    font-size: 20px;
+}
+#email i ,#phno i{
+   padding-right: 10px;
+}
+ #email:hover ,#phno:hover {
+    background-color: skyblue;
+    /* background: linear-gradient(to right, red 50%, blue 50%); */
+    color: #fafafa;
+    transition: color 1s ease;
+    transition: background-color 1s ease;
+    /* transition: background 1s ease; */
+    /* animation: btnAnim 2s linear forwards; */
+ }
+
+footer a{
+        color: white;
+}
+
+#touch{
+    padding: 24px 100px;
+    border-radius: 50px;
+    position:relative;
+    margin-top: -60px;
+    margin-bottom:24px ;
+    font-weight: 600;
+
+    
+}
+#touch a{
+    font-size: 30px;
+}
+
+#socials h2{
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+}
+#socials a{
+    background-color: skyblue;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 24px;
+    color: black;
+
+    /* padding-top: 40px; */
+    /* margin-bottom: 100px; */
+}
+#socials i{
+ font-size: 24px;
+
+}
+
+#css::after{
+    content: "hello world";
+    font-weight: ;
+    color: black;
+}
+
+/* time */
+
+#time{
+    background-color: ;
+    font-size: 24px;
+    display:flex;
+    margin: 24px;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+#time div{
+    background-color: rgb(114, 114, 255);
+}

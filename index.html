@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paul Portfolio</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js" integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+        body{
+            /* background-color: #010101; */
+            background-color: white;
+        }
+        /* preloader */
+        /* .hello{
+            color: white;
+            font-size: 64px;
+        } */
+
+        /* general */
+        a{
+            text-decoration: none;
+            color: #010101;
+        }
+
+        /* navbar */
+        #navbar{
+            /* display: flex; */
+            background-color: white;
+            height: 100px;
+            width: 100%;
+            /* position: fixed; */
+            /* margin-left: 150px; */
+
+        }
+        ul{
+            list-style: none;
+        }
+        #navbar ul{
+            display: flex;
+            /* margin-top: auto; */
+        }
+        #navbar li{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-left: 200px;
+            font-size: 24px;
+            margin-top: 40px;
+            /* */
+        }
+        /* #navbar a{
+            height: 100px;
+            width: 50px;
+        } */
+        #navbar a:hover{
+            border-radius: 30px;
+            background-color: blue;
+            padding: 10px 20px;
+            height: 50px;
+            width: 50px;
+            color: #fafafa;
+
+        }
+        #front , #about {
+            /* color: #fafafa; */
+            color: black;
+        }
+
+      
+
+       
+        
+    </style>
+
+</head>
+<body>
+
+    <!-- <div id="preloader">
+        <div id="loadingWords">
+            <h2 class="hello">Hello</h2>
+            <h2 class="hello">Bonjour</h2>
+            <h2 class="hello">नमस्ते</h2>
+            <h2 class="hello">Hola</h2>
+            <h2 class="hello">Ciao</h2>
+            <h2 class="hello">こんにちは</h2>
+        </div> -->
+
+    </div>
+    <div id="navbar">
+        <ul>
+            <li id="code">© code by paul</li>
+            <li><a href="">Work</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+
+
+    <div id="front">
+        <img src="images\myImg-removebg.png" alt="">
+
+        <div id="frontText">
+
+            <div id="text">
+                <h2>Freelancer <br> Designer <br> Developer</h2>
+                
+            </div>
+        
+        <div id="from">
+                <h2>From</h2>
+                <h2 id="bharat">INDIA</h2>
+            </div>
+ 
+        </div>
+        <marquee behavior="" direction=""scrollamount="20"> Srijan Paul &#x2f Developer &#47 Designer</marquee>
+        
+    </div>
+    <!-- <p id="css"></p> -->
+
+    <div id="about">
+        <center><h1>About Me</h1></center>
+
+        <div id="card">
+            <!-- Engineer -->
+            <div id="card1"> 
+
+                <div class="card-img">
+                    <img src="images\college.jpg" alt="" height="500px">
+                </div>
+
+                <h2>Engineer</h2>
+
+                <div id="eng-details">
+                    <h4>TMSL <br> CSE(Data Science) <br> 2022-26</h4>
+                </div>
+                
+
+            </div>      
+
+            <div id="card2"> 
+
+                <div class="card-img">
+                    <img src="images\designer-crop.png" alt=""  >
+                </div>
+
+                <h2>Designer</h2>
+
+                <div id="design-details">
+                    <h4>UI/UX designer <br> Figma <br> </h4>
+                </div>
+                
+
+            </div>      
+
+            <div id="card3"> 
+
+                <div class="card-img">
+                    <img src="images\developer.jpg" alt="" >
+                </div>
+
+                <h2>Developer</h2>
+
+                <div id="design-details">
+                    <h4> HTML | CSS |JS| jQuery | BOOTSRAP | php <br> </h4>
+                </div>
+                
+
+            </div>      
+
+            <div id="card4"> 
+
+                <div class="card-img">
+                    <img src="https://static.wixstatic.com/media/67bfd2_9d6dd62c554449379293bffcb257fff7~mv2.png/v1/fill/w_946,h_744,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/67bfd2_9d6dd62c554449379293bffcb257fff7~mv2.png" alt="" id="jdsc">
+                </div>
+
+                <h2>Coomunity Creater</h2>
+
+                <div id="design-details">
+                    <h4> JDSC | US , Arizona<br> </h4>
+                </div>
+                
+
+            </div>  
+
+        </div>
+    </div>
+
+    <div id="works">
+
+        <div id="work-head">
+            <!-- <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWViajlvcWg0ZmZyZXZodGtkcHE1N21xajduNDh2dm5ubDRvNjE5NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn33aiTi1jkl6H6/giphy.gif" alt=""> -->
+            <center><h1>My Works</h1></center>
+            <!-- <img src="https://64.media.tumblr.com/5feeeb4d1b7cd7bc1aec79eefa754511/tumblr_p3sc4n6LKz1tiejlho1_500.gifv" alt=""> -->
+        </div>
+       
+        <div id="work-eg">
+
+            <div id="worklist">
+        
+                <ul>
+                    
+                    <li onmouseover="display1()"> House Cleaning Website</li>
+                    <li onmouseover="display2()">  Biker's Website</li>
+                    <li onmouseover="display3()" > Hotel Website Design</li>
+                    <li onmouseover="display4()"> Car Rent Website Design</li>
+                    <li onmouseover="display5()"> Travel Website Design</li>
+                    <li onmouseover="display6()"> Logistics Website Design</li>
+                    <li onmouseover="display7()"> Recepie App UI</li>
+                    <li onmouseover="display8()"> Social Media App UI</li>
+        
+                </ul>
+        
+            </div>
+        
+            <div id="wordDetails">
+                
+                <div id="workimg-main"> 
+                    <h2></h2>
+                    <img class="work-img" id="work-img-main" src="https://scontent.fccu14-1.fna.fbcdn.net/v/t39.30808-6/272996625_105826048682708_3999722470449488284_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=kPZdisX03JAQ7kNvgHtB3Rf&_nc_ht=scontent.fccu14-1.fna&oh=00_AYDo2X-NFegxbizJFpaKzwwvdY86hS6XBxoE3Jl_DtznoA&oe=664BCDBC" alt="" >
+    
+                </div>
+    
+                <!-- CLASS WORKIMG [0] -->
+    
+                <div class="workimg"> 
+    
+                    <div class="worktype"> <h2>Design + Development</h2> <a href="https://paul-srijan.github.io/the-cleanic-project/" target="_blank"><i class="fa-brands fa-github"></i></a> </div>
+                   
+                    <img class="work-img"src="images\works\cleanic website.png" alt="" >
+                    
+                </div>
+    
+            
+                <div class="workimg"> 
+                    <div class="worktype"> <h2>Development</h2>  <a href="https://paul-srijan.github.io/Bike-Service-Website/" target="_blank"><i class="fa-brands fa-github"></i></a> </div>
+                    <img class="work-img"src="images\works\Mechanic.png" alt="" >
+                </div>
+    
+                <div class="workimg"> 
+                    <div class="worktype"> <h2>Design</h2> <a href="https://www.figma.com/design/4gjm7F2OVllaHRO1q6muWZ/Colour-pshycology?node-id=0-1&t=Dh26h3akM0F9qijS-1" target="_blank"><i class="fa-brands fa-figma"></i></a> </div>
+                    <img class="work-img"src="images\works\HotelS.png" alt="" >
+                </div>
+                               
+                <div class="workimg">
+                    <div class="worktype"> <h2>Design</h2><a href="https://www.figma.com/design/4gjm7F2OVllaHRO1q6muWZ/Colour-pshycology?node-id=0-1&t=Dh26h3akM0F9qijS-1" target="_blank"><i class="fa-brands fa-figma" ></i></a> </div>
+                    <img class="work-img"src="images\works\Rent A Car.png" alt="" >
+                </div>
+    
+    
+                <div class="workimg"> 
+                    <div class="worktype"> <h2>Design</h2><a href="https://www.figma.com/design/hyQRJMyQPnaZUZ4LNmteaC/Componets?node-id=0-1&t=bjTToGBcRDbDQHhv-1" target="_blank"><i class="fa-brands fa-figma"></i></a> </div>
+                    <img class="work-img"src="images\works\Tour Operator.png" alt="" >
+                </div>
+                
+                <div class="workimg"> 
+                    <div class="worktype"> <h2>Design</h2><a href="https://www.figma.com/design/GHhT3sIsMgoHuW8X2QyVRu/ASSESMENT1?node-id=0-1&t=pKNFMPUwTmFny5gW-1" target="_blank"><i class="fa-brands fa-figma"></i></a> </div>
+                    <img class="work-img"src="images\works\Truck Website.png" alt="" >
+                </div>
+    
+                <div class="workimg"> 
+                    <div class="worktype"> <h2>Design</h2><a href="https://www.figma.com/design/Klu0aa8GMcdX0heJloBqcL/Recepie-APP-UI?node-id=0-1&t=iicy4f8BoZuglSal-1" target="_blank"><i class="fa-brands fa-figma"></i></a> </div>
+                    <img class="work-img"src="images\works\recepie app ui.png" alt="" >
+                </div>
+    
+                <div class="workimg"> 
+                    <div class="worktype"> <h2>Design</h2><a href="https://www.figma.com/design/Bhs8R12TxFvEfvhH6PiXL2/Social-App?node-id=0-1&t=EVV1aJ4gH1AW5WFO-1" target="_blank"><i class="fa-brands fa-figma"></i></a> </div>
+                    <img class="work-img"src="images\works\social app ui.png" alt="" >
+                </div>
+                
+                <i href></i>
+        
+      
+            </div>
+        
+        </div>
+
+    
+
+
+    </div>
+
+
+
+    <footer>
+
+        <center><h1>Let’s work
+            together</h1><center></center>
+            <hr>
+        <center><button id="touch"><a href="">Get in Touch</a></button></center>
+        
+        <button id="email" > <a href="mailto:someone@example.com""><i class="fa-solid fa-envelope"></i> iampaulsrijan@gmail.com</a> </button>
+        <button id="phno" > <i class="fa-solid fa-phone"></i> 9007877208</button>
+            
+
+        <div id="socials">
+            <h2>--------------------------Socials-------------------------</h2>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""> <i class="fa-brands fa-square-instagram"></i></a>
+            <a href=""> <i class="fa-brands fa-github"></i></a>
+            <a href=""> <i class="fa-brands fa-twitter"></i></a>
+        </div>
+       
+        <div id="time">
+
+            <!-- LOCAL TIME
+            06:15 AM GMT+2 -->
+
+            <div id="hours">00</div>
+            <div id="minutes">00</div>
+            <div id="seconds">00</div>
+
+        </div>
+        
+        <center><p>Designed and Developed By paul-srijan</p></center>
+        <!-- <br> -->
+
+    </footer>
+
+    <script>
+        //  setInterval(() => {});
+        document.getElementById("code").onmouseover = function () {
+            document.getElementById("code").innerHTML="© Srijan Paul        "
+            
+        }
+        
+        document.getElementById("code").onmouseleave  = function () {
+            document.getElementById("code").innerHTML="© code by paul"
+            
+        }
+        // about us images display
+        document.getElementsByClassName("workimg")[0].style.display="none";
+        document.getElementsByClassName("workimg")[1].style.display="none";
+        document.getElementsByClassName("workimg")[2].style.display="none";
+        document.getElementsByClassName("workimg")[3].style.display="none";
+        document.getElementsByClassName("workimg")[4].style.display="none";
+        document.getElementsByClassName("workimg")[5].style.display="none";
+        document.getElementsByClassName("workimg")[6].style.display="none";
+        document.getElementsByClassName("workimg")[7].style.display="none";
+
+        
+        function display1() {
+        //    document.getElementById("work-img-main").style.display="none";
+           document.getElementById("workimg-main").style.display="none";
+
+        // working
+            document.getElementsByClassName("workimg")[0].style.display="grid";
+
+            document.getElementsByClassName("workimg")[1].style.display="none";
+            document.getElementsByClassName("workimg")[2].style.display="none";
+            document.getElementsByClassName("workimg")[3].style.display="none";
+            document.getElementsByClassName("workimg")[4].style.display="none";
+            document.getElementsByClassName("workimg")[5].style.display="none";
+            document.getElementsByClassName("workimg")[6].style.display="none";
+            document.getElementsByClassName("workimg")[7].style.display="none";
+
+
+        }
+
+        function display2() {
+
+        //    document.getElementById("work-img-main").style.display="none";
+           document.getElementById("workimg-main").style.display="none";
+
+        // working
+            document.getElementsByClassName("workimg")[0].style.display="none";
+
+            document.getElementsByClassName("workimg")[1].style.display="grid";
+
+            document.getElementsByClassName("workimg")[2].style.display="none";
+            document.getElementsByClassName("workimg")[3].style.display="none";
+            document.getElementsByClassName("workimg")[4].style.display="none";
+            document.getElementsByClassName("workimg")[5].style.display="none";
+            document.getElementsByClassName("workimg")[6].style.display="none";
+            document.getElementsByClassName("workimg")[7].style.display="none";
+
+
+        }
+
+
+         function display3() {
+
+        //    document.getElementById("work-img-main").style.display="none";
+           document.getElementById("workimg-main").style.display="none";
+
+        // working
+            document.getElementsByClassName("workimg")[0].style.display="none";
+            document.getElementsByClassName("workimg")[1].style.display="none";
+
+            document.getElementsByClassName("workimg")[2].style.display="grid";
+
+            document.getElementsByClassName("workimg")[3].style.display="none";
+            document.getElementsByClassName("workimg")[4].style.display="none";
+            document.getElementsByClassName("workimg")[5].style.display="none";
+            document.getElementsByClassName("workimg")[6].style.display="none";
+            document.getElementsByClassName("workimg")[7].style.display="none";
+       
+        }
+
+        function display4() {
+            
+            document.getElementById("workimg-main").style.display="none";
+
+                // working
+            document.getElementsByClassName("workimg")[0].style.display="none";
+            document.getElementsByClassName("workimg")[1].style.display="none";
+            document.getElementsByClassName("workimg")[2].style.display="none";
+
+            document.getElementsByClassName("workimg")[3].style.display="grid";
+
+            document.getElementsByClassName("workimg")[4].style.display="none";
+            document.getElementsByClassName("workimg")[5].style.display="none";
+            document.getElementsByClassName("workimg")[6].style.display="none";
+            document.getElementsByClassName("workimg")[7].style.display="none";
+
+        }
+
+        function display5() {
+
+            document.getElementById("workimg-main").style.display="none";
+            
+            // working
+            document.getElementsByClassName("workimg")[0].style.display="none";
+            document.getElementsByClassName("workimg")[1].style.display="none";
+            document.getElementsByClassName("workimg")[2].style.display="none";
+            document.getElementsByClassName("workimg")[3].style.display="none";
+
+            document.getElementsByClassName("workimg")[4].style.display="grid";
+
+            document.getElementsByClassName("workimg")[5].style.display="none";
+            document.getElementsByClassName("workimg")[6].style.display="none";
+            document.getElementsByClassName("workimg")[7].style.display="none";
+
+        }
+
+        
+        function display6() {
+
+            document.getElementById("workimg-main").style.display="none";
+            
+            document.getElementsByClassName("workimg")[0].style.display="none";
+            document.getElementsByClassName("workimg")[1].style.display="none";
+            document.getElementsByClassName("workimg")[2].style.display="none";
+            document.getElementsByClassName("workimg")[3].style.display="none";
+            document.getElementsByClassName("workimg")[4].style.display="none";
+
+            document.getElementsByClassName("workimg")[5].style.display="grid";
+
+            document.getElementsByClassName("workimg")[6].style.display="none";
+            document.getElementsByClassName("workimg")[7].style.display="none";
+
+
+        }
+
+        function display7() {
+
+            document.getElementById("workimg-main").style.display="none";
+
+            document.getElementsByClassName("workimg")[0].style.display="none";
+            document.getElementsByClassName("workimg")[1].style.display="none";
+            document.getElementsByClassName("workimg")[2].style.display="none";
+            document.getElementsByClassName("workimg")[3].style.display="none";
+            document.getElementsByClassName("workimg")[4].style.display="none";
+            document.getElementsByClassName("workimg")[5].style.display="none";
+
+            document.getElementsByClassName("workimg")[6].style.display="grid";
+            
+            document.getElementsByClassName("workimg")[7].style.display="none";
+
+
+            }
+
+            function display8() {
+
+            document.getElementById("workimg-main").style.display="none";
+
+            document.getElementsByClassName("workimg")[0].style.display="none";
+            document.getElementsByClassName("workimg")[1].style.display="none";
+            document.getElementsByClassName("workimg")[2].style.display="none";
+            document.getElementsByClassName("workimg")[3].style.display="none";
+            document.getElementsByClassName("workimg")[4].style.display="none";
+            document.getElementsByClassName("workimg")[5].style.display="none";
+            document.getElementsByClassName("workimg")[6].style.display="none";
+
+            document.getElementsByClassName("workimg")[7].style.display="grid";
+
+            }
+        
+
+
+        $(document).ready(function(){
+            
+            $($("h1")[0]).css("color","black");
+            $($("h1")[0]).css("font-weight","bold");
+            
+            // $('h1')[0].css("color","blue");
+        
+
+        });
+
+        setInterval(() => {
+        let hours = document.getElementById('hours');
+        let minutes = document.getElementById('minutes');
+        let secondes = document.getElementById('seconds');
+        // let ampm = document.getElementById('ampm');
+        // show time
+
+        let h = new Date().getHours();
+        let m = new Date().getMinutes();
+        let s = new Date().getSeconds();
+
+          
+        // add 0 before single digit
+        h = h < 10 ? '0' + h : h;
+        m = m < 10 ? '0' + m : m;
+        s = s < 10 ? '0' + s : s;
+        
+        // set time and label
+        hours.innerHTML = h + ':';
+        minutes.innerHTML = m + ':';
+        secondes.innerHTML = s + '';
+        // ampm.innerHTML = ap;
+    }, 1000);
+
+    </script>
+</body>
+</html>
